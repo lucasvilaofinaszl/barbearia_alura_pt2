@@ -1,1 +1,17 @@
+header { 
+  background:#bbbbbb;
+  padding: 20px 0;
+}
 
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+} 
+
+nav a {
+  tex-transform: uppercas;
+  color: black;
+  fotn-weight: bold;
+  fotn-size: 22px;
+  text-decoration: none;
+}
