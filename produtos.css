@@ -3,9 +3,16 @@ header {
   padding: 20px 0;
 }
 
-nav li {
-  display: inline;
-  margin: 0 0 0 15px;
+.caixa{
+  position:relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+  nav{
+  position: absolute;
+  top: 110px;
+  right:0;
 } 
 
 nav a {
@@ -14,4 +21,45 @@ nav a {
   fotn-weight: bold;
   fotn-size: 22px;
   text-decoration: none;
+}
+
+
+
+
+
+
+nav a :houver{
+color: #3a3a91;
+  text-decoration: underline;
+}
+.produtos{
+  widht: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.produtos li{
+  display: inline-block;
+  text-aline: center;
+  widht: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  border: 2px solid black:
+  border-radius: 45px;
+}
+
+.produtos h2{
+  font-size: 30px;
+  fotn-weight: bold;
+}
+
+.produto-descrição{ 
+font-size: 18px;
+}
+
+.produto-preço{
+  fotn-size: 22px;
+  font-weight: bold;
+  margin-top: 10 px;
 }
