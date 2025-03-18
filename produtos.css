@@ -15,6 +15,11 @@ header {
   right:0;
 } 
 
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
 nav a {
   tex-transform: uppercas;
   color: black;
@@ -23,15 +28,11 @@ nav a {
   text-decoration: none;
 }
 
-
-
-
-
-
 nav a :houver{
 color: #3a3a91;
   text-decoration: underline;
 }
+
 .produtos{
   widht: 940px;
   margin: 0 auto;
@@ -49,6 +50,17 @@ color: #3a3a91;
   border-radius: 45px;
 }
 
+.produtos li:hover{
+ border-color: red;
+}
+
+.produtos li:active{ 
+  border-color: green;
+}
+
+.produtos li: hover h2{
+  font-size:34 px;
+}
 .produtos h2{
   font-size: 30px;
   fotn-weight: bold;
