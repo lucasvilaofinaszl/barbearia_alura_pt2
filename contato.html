@@ -38,10 +38,23 @@
 
     <div>
       <p>Como prefere nosso contato?</p>
+       <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+      <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+      <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
     </div>
-    <div>
+
+ <div>
       <p>qual horario prefer ser atendido?</p>
+      <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+      </select>
     </div>
+
+<label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email</label>
     <input type="submit" value="Enviar formulário">
    </form>
    </main>
