@@ -1,5 +1,9 @@
 @import url(produtos.css);
 
+body{
+	font-family: 'Roboto' , sans-serif;
+}
+
 .banner {
 	width:100%;
 }
@@ -44,6 +48,20 @@
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
+}
+
+.mapa p{
+	padding: 3em 0;
+}
+
+.mapa{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video{
+	widTh: 560px;
+	margin: 1em auto;
 }
 
 
