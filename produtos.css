@@ -50,7 +50,7 @@ color: #3a3a91;
   vertical-align: top;
   margin: 0 1.5%;
   box-sizing: border-box;
-  border: 2px solid black:
+  border: 2px solid black;
   border-radius: 45px;
 }
 
@@ -62,7 +62,7 @@ color: #3a3a91;
   border-color: green;
 }
 
-.produtos li: hover h2{
+.produtos li:hover h2{
   font-size:34 px;
 }
 .produtos h2{
