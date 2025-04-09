@@ -1,7 +1,11 @@
 @import url(produtos.css);
 
+body{
+	font-family: 'Roboto' , sans-serif;
+}
+
 main{
-  widht: 940px;
+  width: 940px;
   margin: 0 auto;
 }
 

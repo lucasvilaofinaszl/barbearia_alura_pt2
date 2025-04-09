@@ -98,3 +98,19 @@ body{
 }
 
 
+@media screen and(max-width: 480px){
+	.caixa, .principal, .conteudo-benefícios, mapa-conteudo, .video{
+	  width:
+}
+
+h1{
+	text-align: center;
+}
+
+nav{
+	position: static;
+}
+
+.lista-beneficios, .imagem-benefícios{
+	width: 100%;
+}
