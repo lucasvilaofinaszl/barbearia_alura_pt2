@@ -100,7 +100,7 @@ body{
 
 @media screen and(max-width: 480px){
 	.caixa, .principal, .conteudo-benefícios, mapa-conteudo, .video{
-	  width:
+	  width: 100%;
 }
 
 h1{
@@ -113,4 +113,5 @@ nav{
 
 .lista-beneficios, .imagem-benefícios{
 	width: 100%;
+}
 }
